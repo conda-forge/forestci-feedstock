@@ -14,6 +14,18 @@ random forest regression or classification objects. The core functions calculate
 error bars for random forest objects
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/forestci-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/forestci-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/forestci-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/forestci-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/forestci-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/forestci-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/version.svg)](https://anaconda.org/conda-forge/forestci)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/downloads.svg)](https://anaconda.org/conda-forge/forestci)
+
 Installing forestci
 ===================
 
@@ -34,7 +46,6 @@ It is possible to list all of the versions of `forestci` available on your platf
 ```
 conda search forestci --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -70,18 +81,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/forestci-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/forestci-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/forestci-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/forestci-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/forestci-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/forestci-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/version.svg)](https://anaconda.org/conda-forge/forestci)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/downloads.svg)](https://anaconda.org/conda-forge/forestci)
 
 
 Updating forestci-feedstock
