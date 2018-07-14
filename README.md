@@ -17,14 +17,15 @@ error bars for random forest objects
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/forestci-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/forestci-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/forestci-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/forestci-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/forestci-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/forestci-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/forestci-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/forestci-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/version.svg)](https://anaconda.org/conda-forge/forestci)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/forestci/badges/downloads.svg)](https://anaconda.org/conda-forge/forestci)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-forestci-green.svg)](https://anaconda.org/conda-forge/forestci) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/forestci.svg)](https://anaconda.org/conda-forge/forestci) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/forestci.svg)](https://anaconda.org/conda-forge/forestci) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/forestci.svg)](https://anaconda.org/conda-forge/forestci) |
 
 Installing forestci
 ===================
