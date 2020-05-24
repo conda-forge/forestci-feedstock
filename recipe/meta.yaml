@@ -1,6 +1,6 @@
 {% set name = "forestci" %}
-{% set version = "0.3" %}
-{% set sha256 = "459e091c68b5fc4976f9742368f473ddfad9536d9037a09b60d17e6ea9a40b9a" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "e8a7b059476dd6871aba2d049c1f9b3ed16c75e92c9d5982cef1cdd551e0595b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -32,14 +32,14 @@ requirements:
 test:
   imports:
     - forestci
- 
+
 about:
   home: https://github.com/scikit-learn-contrib/forest-confidence-interval
   license: MIT
   # The LICENSE.txt file is not in the MANIFEST.in, so this will fail when trying to build from the pypi tarball since it won't be there. 
   # Comment out license_file line and add it once theMANIFEST.in has been patched upstream.
   #license_file: LICENSE.txt
-  summary: 'calculate confidence intervals for scikit-learn random forest regression or classification objects'
+  summary: calculate confidence intervals for scikit-learn random forest regression or classification objects
 
   description: |
     a Python module for calculating variance and adding confidence intervals to scikit-learn
