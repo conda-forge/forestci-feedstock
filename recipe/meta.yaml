@@ -19,12 +19,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
     - numpy
     - scipy
   run:
-    - python
+    - python >=3.6
     - scikit-learn
     - numpy
     - scipy
