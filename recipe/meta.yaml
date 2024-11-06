@@ -1,6 +1,6 @@
 {% set name = "forestci" %}
-{% set version = "0.6" %}
-{% set sha256 = "f74f51eba9a7c189fdb673203cea10383f0a34504d2d28dee0fd712d19945b5a" %}
+{% set version = "0.7" %}
+{% set sha256 = "0978d0b3eea5a8b1c1521008c352df0bc93aa5c1a5a05466b25f220f69f0a4d5" %}
 
 package:
   name: {{ name|lower }}
