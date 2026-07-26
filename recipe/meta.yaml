@@ -1,6 +1,6 @@
 {% set name = "forestci" %}
-{% set version = "0.6" %}
-{% set sha256 = "f74f51eba9a7c189fdb673203cea10383f0a34504d2d28dee0fd712d19945b5a" %}
+{% set version = "0.8" %}
+{% set sha256 = "be40301b2181d0f4381d2f7b55bde7ba869db540587e9ef770f7f677e0bcda77" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
