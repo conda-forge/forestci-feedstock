@@ -1,6 +1,6 @@
 {% set name = "forestci" %}
-{% set version = "0.8" %}
-{% set sha256 = "be40301b2181d0f4381d2f7b55bde7ba869db540587e9ef770f7f677e0bcda77" %}
+{% set version = "0.9" %}
+{% set sha256 = "175397148b9f7ddfb02a9b82fb9d0e0039fd292d149d5add16140c6a4111580c" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
